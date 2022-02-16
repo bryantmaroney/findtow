@@ -1,0 +1,296 @@
+/*
+Theme Name: Towing Demo
+Theme URI: http://towing-demo.io/
+Description: NA
+Author: Bryant Maroney
+Version: 1.0
+*/
+
+
+body {
+	font-family: sans-serif;
+}
+.main-wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+.main-margin {
+	width: 900px;
+	margin: 0 auto;
+}
+.cat-left {
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+}
+.cat-right {
+	width: 280px;
+	float: right;
+	margin-top: 20px;
+}
+ul.bread {
+	float: left;
+	width: calc(100% - 32px);
+	margin: 0;
+	padding: 0;
+	background: #EEEEEE;
+	padding: 16px;
+	border-radius: 3px;
+	position: relative;
+}
+ul.bread li {
+	float: left;
+	list-style-type: none;
+	color: blue;
+	font-size: 16px;
+}
+ul.bread li a {
+	text-decoration: none;
+	color: blue;
+}
+ul.bread li:after {
+	content: ' / ';
+	color: #CCCCCC;
+	display: inline-block;
+	margin: 0 10px;
+}
+ul.bread li:last-child:after {
+	display: none;
+}
+.cat-page-title {
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #000000;
+	font-size: 30px;
+	margin: 18px 0;
+}
+ul.parent-cat-list {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+	list-style-position: inside;
+}
+ul.parent-cat-list li {
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	margin-bottom: 10px;
+	color: blue;
+}
+ul.parent-cat-list li a {
+	text-decoration: none;
+	color: lightslategrey;
+}
+ul.parent-cat-list li a span {
+	font-size: 10px;
+}
+.w-full {
+    width: 100%;
+}
+.object-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.h-48 {
+    /*height: 12rem;*/
+    height: 300px;
+}
+ul.city-tow-list {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul.city-tow-list li {
+	float: left;
+	width: calc(100% - 20px);
+	list-style-type: none;
+	background: #eeeeee85;
+	padding: 12px;
+	border-radius: 3px;
+	margin-bottom: 8px;
+}
+ul.city-tow-list li:hover {
+	background: #EEEEEE;
+}
+.city-tow-li-left {
+	float: left;
+	width: 50%;
+}
+.city-tow-li-right {
+	float: right;
+	width: 50%;
+}
+.city-tow-title {
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.city-tow-call {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	margin-top: 7px;
+}
+.city-tow-li-right div {
+	float: right;
+	width: 100%;
+	font-size: 12px;
+	text-align: right;
+}
+.cat-left form input:nth-child(1) {
+	width: 200px;
+    height: 34px;
+    padding: 0 10px;
+    float: left;
+}
+.cat-left form input:nth-child(2) {
+	height: 38px;
+    padding: 0 14px;
+    margin-left: 7px;
+}
+.add-listing {
+	position: absolute;
+    background: lightskyblue;
+    border-radius: 3px;
+    height: 40px;
+    top: 5px;
+    right: 5px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+    font-family: Trebuchet MS;
+    font-weight: 600;
+    color: midnightblue;
+    cursor: pointer;
+}
+.add-listing:hover {
+	background: midnightblue;
+	color: #FFFFFF;
+}
+.login-listing {
+	position: absolute;
+    background: lightskyblue;
+    border-radius: 3px;
+    height: 40px;
+    top: 5px;
+    right: 128px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+    font-family: Trebuchet MS;
+    font-weight: 600;
+    color: midnightblue;
+    cursor: pointer;
+}
+.login-listing:hover {
+	background: midnightblue;
+	color: #FFFFFF;
+}
+.listing-pop {
+	position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    z-index: 99;
+    padding: 30px;
+}
+.listing-pop-title {
+	text-align: center;
+    font-size: 26px;
+    margin-bottom: 24px;
+}
+.calc-location {
+	background: lightskyblue;
+    float: left;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    color: midnightblue;
+    cursor: pointer;
+}
+#input_2_4 {
+	font-size: 14px;
+    border: 0;
+    padding: 0;
+}
+#field_2_4 label {
+	font-size: 13px;
+    margin-bottom: 2px;
+}
+#field_2_4 {
+	float: left;
+	width: 80px;
+	clear: none;
+	grid-column: auto;
+}
+#input_2_5 {
+	font-size: 14px;
+    border: 0;
+    padding: 0;
+}
+#field_2_5 label {
+	font-size: 13px;
+    margin-bottom: 2px;
+}
+#field_2_5 {
+	float: left;
+	width: 80px;
+	clear: none;
+	grid-column: auto;
+}
+.listing-pop-close {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	color: #333333;
+	font-size: 20px;
+	cursor: pointer;
+}
+.listing-pop-close:hover {
+	color: red;
+}
+.login-pop {
+	position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    z-index: 99;
+    padding: 30px;
+}
+.sidebar-profile-post {
+	float: right;
+	background: #EEEEEE;
+	padding: 15px;
+	width: 200px;
+	margin-bottom: 7px;
+}
+.sidebar-profile-link {
+	margin-top: 4px;
+    float: left;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
